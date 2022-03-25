@@ -5,6 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
 	<title>Cookies</title>
 </head>
 <body>
@@ -20,60 +23,68 @@
 			<div class="logo">
 				<img src="sweets/logo.png">
 			</div>
+			<div id="menu">
+				<div class="ins-menu">
+					<div id="menu-bar" onclick="OnClickMenu()">
+						<div id="bar1" class="bar"></div>
+						<div id="bar2" class="bar"></div>
+						<div id="bar3" class="bar"></div>
+					</div>
+				</div>
+				
+				<ul class="header-ul header-hide">
+					<li class="li-a">
+						<a href="">Custom Cookies</a>
+					</li>
 
-			<ul>
-				<li class="li-a">
-					<a href="">Custom Cookies</a>
-				</li>
+					<li class="li-a">
+						<a href="">Pre-Orders</a>
+					</li>
 
-				<li class="li-a">
-					<a href="">Pre-Orders</a>
-				</li>
+					<li class="li-a">
+						<a href="">Gallery</a>
+					</li>
 
-				<li class="li-a">
-					<a href="">Gallery</a>
-				</li>
+					<li class="li-a">
+						<a href="">Workshops</a>
+					</li>
 
-				<li class="li-a">
-					<a href="">Workshops</a>
-				</li>
+					<li class="li-a">
+						<a href="">Shops</a>
+					</li>
 
-				<li class="li-a">
-					<a href="">Shops</a>
-				</li>
+					<li class="li-a">
+						<a href="">About Us</a>
+					</li>
 
-				<li class="li-a">
-					<a href="">About Us</a>
-				</li>
+					<li class="li-a">
+						<a href="">CONTACT</a>
+					</li>
 
-				<li class="li-a">
-					<a href="">CONTACT</a>
-				</li>
-
-				<li class="li-btn">
-					<button>Order now</button>
-				</li>
-			</ul> 
+					<li class="li-btn">
+						<button>Order now</button>
+					</li>
+				</ul> 
+			</div>
 		</div>
 	</nav>
 
-
 	<section>
 		<div class="two">
-			<div class="first">
+			<div class="two-first">
 				<h1>ROYAL ICED <br>
 					SUGAR COOKIES</h1>
 
 				<p>We make amazing creative and delicius cookies,<br>
 					cakes and sweet treats</p>
 			</div>
-			<div class="second">
-				<img src="sweets/header.png">
+			<div class="two-second">
+				<img src="sweets/header.png">  
 			</div>
 		</div>
 	</section>
 
-	<section>
+	<section id="fatured-section">
 		<div class="fatured container">
 			<div class="intro">
 				<h1>
@@ -86,9 +97,11 @@
 					<img src="sweets/group_1.png">
 
 					<div class="hidden">
-						<h1>BABY SHOWER COOKIES</h1>
+						<div class="centralise">
+							<h1>BABY SHOWER COOKIES</h1><br>
 
-						<button>OREDER</button>
+							<button>OREDER</button>
+						</div>
 					</div>
 				</div>
 
@@ -96,9 +109,11 @@
 					<img src="sweets/group_1.png">
 
 					<div class="hidden">
-						<h1>BABY SHOWER COOKIES</h1>
+						<div class="centralise">
+							<h1>BABY SHOWER COOKIES</h1><br>
 
-						<button>OREDER</button>
+							<button>OREDER</button>
+						</div>
 					</div>
 				</div>
 
@@ -106,13 +121,13 @@
 					<img src="sweets/group_2.png">
 
 					<div class="hidden">
-						<h1>BABY SHOWER COOKIES</h1>
+						<div class="centralise">
+							<h1>BABY SHOWER COOKIES</h1><br>
 
-						<button>OREDER</button>
+							<button>OREDER</button>
+						</div>
 					</div>
 				</div>
-
-
 
 
 
@@ -170,29 +185,32 @@
 					<img src="sweets/side_img.png">
 				</div>
 
-				<div class="reg-pl">
-					<div class="pipi2">
+				<div class="reg-block">
+					<div class="reg-block-text">
 						
 							<h1>BABY SHOWER COOKIES</h1>
 
-							<p><span>"</span> Lorem ipsum, dolor sit amet, consectetur adipisicing elit.<br> Eos, perspiciatis consectetur neque voluptates eius as aliquid, fuga?<span>"</span></p>
+							<p><em>"</em> Lorem ipsum, dolor sit amet, consectetur adipisicing elit.<br> Eos, perspiciatis consectetur neque voluptates eius as aliquid, fuga?<em>"</em></p>
 
 							<h1>ORDER LIST</h1>
 						
 
-					
-					<div id="name">
-						<i class="fas fa-users"></i>
-
-						<input type="text" name="" placeholder="Full name" class="inp-1">
-						<input type="text" name="" placeholder="" class="inp-1">
-					</div>
-
-					<input type="" name="" class="plau">
-					<input type="" name="" class="plau">
-					<input type="" name="" class="plau">
-
-					<button>Order Now</button>
+					<form class="reg-form" action="">
+						<div id="name">
+							<i class="fas fa-users"></i>
+	
+							<input type="text" name="" placeholder="Full name" class="inp-1">
+							<input type="text" name="" placeholder="" class="inp-1">
+						</div>
+						<div class="reg-order-div">
+							<input type="" name="" class="plau">
+							<input type="" name="" class="plau">
+							<input type="" name="" class="plau">
+	
+							<button>Order Now</button>
+						</div>
+						
+					</form>
 				</div>
 			</div>
 		</div>
@@ -207,12 +225,12 @@
 
 				<p>"Lorem ipsum dolor sit amet , consectatour adipiska elit huelit </p>
 
-				<div class="inpots">
-				<i class="fab  fa-envelope"></i>
-				<input type="" name="" placeholder="Enter your Email" id="lala">
+				<div class="sub-div">
+					<i class="fab  fa-envelope"></i>
+					<input type="" name="" placeholder="Enter your Email" id="sub-inp">
 
-				<button for="lala">Subscribe</button>
-			</div>
+					<button for="sub-inp">Subscribe</button>
+				</div>
 			</div>
 
 			
@@ -228,10 +246,7 @@
 			</div>
 
 			<div class="ins-com">
-
 				<i class="fas fa-arrow-left"></i>
-
-
 				<div class="com-1">
 					<img src="sweets/img.png">
 
@@ -297,64 +312,6 @@
 		</div>
 	</footer>
 
-
-
-<script type="text/javascript">
-	console.log("Some")
-	function months(a){
-		if(a == 1 || a.toUpperCase() =="JANUARY"){
-			console.log(`${a} month have 31 days`)
-		}
-
-		else if (a == 2 || a.toUpperCase() == "FEBRUARY"){
-			console.log(`${a} month have 28-29 days`)
-		}
-
-		else if (a == 3 || a == "MARCH"){
-			console.log(`${a} month have 31 days`)
-		}
-
-		else if (a == 4 || a == "APRIL"){
-			console.log(`${a} month have 30 days`)
-		}
-
-		else if (a == 5 || a.toUpperCase() == "MAY"){
-			console.log(`${a} month have 31 days`)
-		}
-
-		else if (a == 6 || a.toUpperCase() == "JUNE"){
-			console.log(`${a} month have 30 days`)
-		}
-
-		else if (a == 7 || a.toUpperCase() == "JULY"){
-			console.log(`${a} month have 31 days`)
-		}
-
-		else if (a == 8 || a.toUpperCase() == "AUGUST"){
-			console.log(`${a} month have 31 days`)
-		}
-
-		else if (a == 9 || a.toUpperCase() == "SEPTEMBER"){
-			console.log(`${a} month have 30 days`)
-		}
-
-		else if (a == 10 || a.toUpperCase() == "OCTOBER"){
-			console.log(`${a} month have 31 days`)
-		}
-
-		else if (a == 11 || a.toUpperCase() == "NOVERMBER"){
-			console.log(`${a} month have 28-29 days`)
-		}
-
-		else if (a == 12 || a.toUpperCase() == "DECEMBER"){
-			console.log(`${a} month have 31 days`)
-		}
-
-		else{
-			console.log("GET OUT")
-		}
-	}
-	months("June")
-</script>
+	<script src="script.js"></script>
 </body>
 </html>
